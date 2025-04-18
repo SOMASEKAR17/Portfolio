@@ -38,12 +38,7 @@ const App = () => {
     </div>
     <Rough />
     <Marquee />
-    <div className='w-full h-screen/2 p-20 bg-zinc-900 text-white font-["Mont"]'>
-      <h1 className='text-5xl'>Lost? Shall I Navigate</h1>
-        <div className='text-2xl'>Just kidding 😊</div>
-        <div></div>
-        <div></div>
-    </div>
+  
     </>
   )
 }
