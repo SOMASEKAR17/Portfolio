@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Founders';
+  src: url('./assets/fonts/FoundersGroteskXCond-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('./assets/fonts/NeueMontreal-Light.otf') format('opentype');
+}
