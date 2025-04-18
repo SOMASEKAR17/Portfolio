@@ -1,9 +1,9 @@
 import React from 'react'
-import LocomotiveScroll from 'locomotive-scroll';
+
 import Nav from './components/navbar'
 
 const projects = () => {
-    const locomotiveScroll = new LocomotiveScroll();
+     
   return (
     <>
     <Nav />

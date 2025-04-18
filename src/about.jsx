@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Nav from './components/navbar'
-import LocomotiveScroll from 'locomotive-scroll';
+ 
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -26,7 +26,7 @@ import { CgGym } from "react-icons/cg";
 import { useLocation } from 'react-router-dom';
 
 const about = () => {
-    const locomotiveScroll = new LocomotiveScroll();
+   
     const location = useLocation();
 
   useEffect(() => {

@@ -4,12 +4,12 @@ import Nav from './components/navbar';
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
-import LocomotiveScroll from 'locomotive-scroll';
+ 
 
 const contact = () => {
   const [msg,setmsg] = useState("");
   const form = useRef();
-  const locomotiveScroll = new LocomotiveScroll();
+   
 
   const sendEmail = (e) => {
     e.preventDefault();

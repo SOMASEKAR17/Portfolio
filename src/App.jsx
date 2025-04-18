@@ -5,14 +5,13 @@ import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 import Marquee from './components/marquee'
-import LocomotiveScroll from 'locomotive-scroll';
+
 
 const App = () => {
-  const locomotiveScroll = new LocomotiveScroll();
   return (
     <>
     <Nav />
-    <div  data-scroll data-scroll-section data-scroll-speed='-.3' className="main pb-[10vw] pt-[30vw] sm:pt-[20vw] lg:pt-[12vw] xl:pt-[10vw] px-[3vw] w-full overflow-hidden">
+    <div className="main pb-[10vw] pt-[30vw] sm:pt-[20vw] lg:pt-[12vw] xl:pt-[10vw] px-[3vw] w-full overflow-hidden">
       <div className="myself flex flex-col xl:flex-row items-center justify-center xl:gap-[2vw] sm:gap-[8vw] gap-[10vw] w-full xl:h-[25vw] xl:px-[3vw] ">
         <div className="photo xl:w-1/3 w-[50vw] h-[50vw] md:w-[30vw] md:h-[30vw] lg:w-[30vw] overflow-hidden lg:h-[30vw] bg-gray-200 xl:h-full rounded-4xl">
           <img src="Myself.jpg" className='w-full h-full object-cover object-center' alt="" />
