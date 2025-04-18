@@ -7,7 +7,7 @@ const projects = () => {
   return (
     <>
     <Nav />
-    <div className='w-full min-h-screen p-[12vw] lg:p-[10vw] gap-[2vw] lg:gap-[5vw] grid grid-cols-1 lg:grid-cols-2'>
+    <div className='w-full min-h-screen p-[12vw] lg:p-[10vw] gap-[2vw] lg:gap-[5vw] grid grid-cols-1 xl:grid-cols-2'>
             <div className=' bg-gray-100 py-10 flex flex-col items-center rounded-3xl h-full'>
                 <h1 className='font-[Founders] text-4xl text-gray-700'>Full Stack Projects</h1>
                 <h2 className='font-[Mont]'>FintechX</h2>
@@ -15,22 +15,22 @@ const projects = () => {
                 <h2 className='font-[Mont] mt-3'><a href="https://www.linkedin.com/posts/somasekar-naidu-841646320_hackathon-fintech-ai-activity-7318672541546418177-6CaY?utm_source=share&utm_medium=member_android&rcm=ACoAAFFAuTEB-V8H8Y59NcUqLsy-P3ftYUUhmpQ" target='_blank'>More Details ↗</a></h2>
             </div>
             <div className=' bg-gray-100 py-10 flex flex-col items-center rounded-3xl h-full'>
-            <h1 className='font-[Founders] text-4xl text-gray-700'>Other</h1>
-                <div className='flex flex-wrap gap-10 items-center justify-center'>
-                    <div className=' w-[30vw] md:w-1/3 overflow-hidden'>
-                        <img className='h-[170px] object-cover w-[400px] rounded-xl ' src="amazzon.png" alt="" />
+            <h1 className='font-[Founders] text-4xl  text-gray-700'>Other</h1>
+                <div className='flex flex-wrap gap-10 h-9/10 items-center justify-center'>
+                    <div className=' xl:h-1/2  lg:w-[200px] xl:w-[15vw] sm:w-[290px] w-[200px] overflow-hidden'>
+                        <img className='lg:h-[170px] object-cover w-full rounded-xl ' src="amazzon.png" alt="" />
                         <h2 className='font-[Mont] text-center'>Amazon clone</h2>
                     </div>
-                    <div className=' w-[30vw] md:w-1/3 overflow-hidden'>
-                        <img className='h-[170px] object-cover w-[400px] rounded-xl ' src="samsung.png" alt="" />
+                    <div className=' xl:h-1/2  lg:w-[200px] xl:w-[15vw] sm:w-[290px] w-[200px] overflow-hidden'>
+                        <img className='lg:h-[170px] object-cover w-full rounded-xl ' src="samsung.png" alt="" />
                         <h2 className='font-[Mont] text-center'>Samsung clone</h2>
                     </div>
-                    <div className=' w-[30vw] md:w-1/3 overflow-hidden'>
-                        <img className='h-[170px] object-cover w-[400px] rounded-xl ' src="agency.png" alt="" />
+                    <div className=' xl:h-1/2  lg:w-[200px] xl:w-[15vw] sm:w-[290px] w-[200px] overflow-hidden'>
+                        <img className='lg:h-[170px] object-cover w-full rounded-xl ' src="agency.png" alt="" />
                         <h2 className='font-[Mont] text-center'>Agency clone</h2>
                     </div>
-                    <div className=' w-[30vw] md:w-1/3 overflow-hidden'>
-                        <img className='h-[170px] object-cover w-[400px] rounded-xl ' src="mv.png" alt="" />
+                    <div className=' xl:h-1/2  lg:w-[200px] xl:w-[15vw] sm:w-[290px] w-[200px] overflow-hidden'>
+                        <img className='lg:h-[170px] object-cover w-full rounded-xl ' src="mv.png" alt="" />
                         <h2 className='font-[Mont] text-center'>Movie Vault</h2>
                     </div>
                     
