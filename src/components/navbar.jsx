@@ -36,7 +36,7 @@ const nav = () => {
           <h1 className='font-[Mont] absolute left-[5vw] text-xl'>Somasekar Naidu</h1>
           <button id="menu-toggle" onClick={()=>setclicked(!isclicked)} className="md:hidden text-black absolute right-[5vw] ">{!isclicked ? "☰" : "✖"}</button>
             {["home","about","projects","contact"].map((item,index)=>(
-              <a key={index} className={`text-xl transition-all ease-in duration-100 hidden md:inline hover:scale-105 hover:-translate-y-[1px] capitalize font-["Mont"] tracking-wide ${index==0 ? "ml-40":""} `}>{<Link to={`/${item}`}>{item}</Link>}</a>
+              <a key={index} id={item} className={`text-xl transition-all ease-in duration-100 hidden md:inline hover:scale-105 hover:-translate-y-[1px] capitalize font-["Mont"] tracking-wide ${index==0 ? "ml-40":""} `}>{<Link to={`/${item}`}>{item}</Link>}</a>
             ))}
         </div>
         <motion.div initial={{x:"200px"}} animate={isclicked ? {x:"0"} : {x:"200px"}} transition={{ease: [0.22,1,0.36,1],delay: 0.2}} className="w-30 absolute top-15 right-5 h-30 rounded-4xl items-center backdrop-blur-md justify-center text-black flex flex-col font-[Mont]">
